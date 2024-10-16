@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>遊記</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src = "js/app.js"></script>
+</head>
+
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+
+
+  <header>
+    <h1>歡迎來到我的遊記</h1>
+  </header>
+  <main>
+    <section>
+      <h2>可以點選兩個以下分頁來看內容</h2>
+      <a href = "https://happy940610.wixsite.com/my-site-3">
+      <img src="star.png" alt="看更多" id = "star">
+      </a>
+      <p id = "s">點擊星星可以看到我之前做的網頁，有更多遊記內容</p>
+    </section>
+  </main>
+  <div id="typeEffect"></div>
+  <nav class="tabs">
+    <a href="#Keelung" class="tab">基隆</a>
+    <a href="#Yangmingsun" class="tab">陽明山</a>
+  </nav>
+
+  <div class = "page" id = "Keelung">
+    <h1 >我的基隆遊記</h1>
+    <h2>八斗子車站</h2>
+    <a href = "https://www.google.com/maps/place/%E5%85%AB%E6%96%97%E5%AD%90%E7%81%AB%E8%BB%8A%E7%AB%99/@25.134357,121.8023491,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4f83e295549b:0xced5ec5fbde54a00!8m2!3d25.134357!4d121.804924!16s%2Fg%2F11c6cnvdcb?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "eight.jpg" alt = "八斗子車站" id = "i1">
+    </a>
+    <button id="shrinkBtn1">縮小圖片</button>
+    <p>附近很漂亮，可以走下去碰海水</p>
+    <h2>潮境公園</h2>
+    <a href = "https://www.google.com/maps/place/%E6%BD%AE%E5%A2%83%E5%85%AC%E5%9C%92/@25.1434517,121.80084,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4f796bf63419:0x933818b7df70488e!8m2!3d25.1434517!4d121.8034149!16s%2Fg%2F11h0rsgx8?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "park.jpg" alt = "八斗子車站" id = "i2">
+    </a>
+    <button id="shrinkBtn2">縮小圖片</button>
+    <p>適合走走，附近有步道可以走</p>
+    <h2>彩虹屋</h2>
+    <a href ="https://www.google.com/maps/place/%E6%AD%A3%E6%BF%B1%E6%BC%81%E6%B8%AF-%E5%BD%A9%E8%89%B2%E8%A1%97%E5%B1%8B/@25.1524181,121.7665302,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4f3b99941dd3:0x900e64ebc67b3076!8m2!3d25.1524181!4d121.7691051!16s%2Fg%2F11f66fs6gs?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "rainbow.jpg" alt = "彩虹屋" id = "i3">
+    </a>
+    <button id="shrinkBtn3">縮小圖片</button>
+    <p>真的很漂亮，附近很多小店</p>
+    <h2>海洋廣場</h2>
+    <a href = "https://www.google.com/maps/place/%E6%B5%B7%E6%B4%8B%E5%BB%A3%E5%A0%B4/@25.1310222,121.7387731,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4e157283a85f:0x85693773786fabe1!8m2!3d25.1310222!4d121.741348!16s%2Fg%2F11cjnnwqkp?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "sea.jpg" alt = "海洋廣場" id = "i4">
+    </a>
+    <button id="shrinkBtn4">縮小圖片</button>
+    <p>可以看到地標跟很多大船，有人工草皮可以坐</p>
+    <h2>Keelung 地標</h2>
+    <a href = "https://www.google.com/maps/place/%E8%99%8E%E4%BB%94%E5%B1%B1%E5%9F%BA%E9%9A%86%E5%9C%B0%E6%A8%99/@25.1365133,121.7419084,15.43z/data=!4m14!1m7!3m6!1s0x345d4e157283a85f:0x85693773786fabe1!2z5rW35rSL5buj5aC0!8m2!3d25.1310222!4d121.741348!16s%2Fg%2F11cjnnwqkp!3m5!1s0x345d4e6b6effda3f:0x8c96df46606651d5!8m2!3d25.1351391!4d121.7373449!16s%2Fg%2F11b6b8zf8h?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "kee.jpg" alt = "Keelung 地標" id = "i5">
+    </a>
+    <button id="shrinkBtn5">縮小圖片</button>
+    <p>很多地方看的到，每個角度都滿好看的</p>
+    <h2>生肖橋</h2>
+    <a href = "https://www.google.com/maps/place/%E5%9F%BA%E9%9A%86%E5%B8%82%E9%87%91%E9%9B%9E%E6%A9%8B/@25.1302399,121.7422811,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4e3fa69b2059:0xbb76672ba7675919!8m2!3d25.1302399!4d121.744856!16s%2Fg%2F1vzv1f5t?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "c.jpg" alt = "生肖橋" id = "i6">
+    </a>
+    <button id="shrinkBtn6">縮小圖片</button>
+    <p>太長了，未來有時間再走完</p>
+    <h2>基隆廟口夜市</h2>
+    <a href = "https://www.google.com/maps/place/%E5%9F%BA%E9%9A%86%E5%BB%9F%E5%8F%A3%E5%A4%9C%E5%B8%82/@25.128445,121.740577,17z/data=!3m1!4b1!4m6!3m5!1s0x345d4e3e159d9663:0x1d84dd13f992491e!8m2!3d25.128445!4d121.7431519!16s%2Fg%2F155rj3y0?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "n.jpg" alt = "基隆廟口夜市" id = "i7">
+    </a>
+    <button id="shrinkBtn7">縮小圖片</button>
+    <p>去的時候剛好燈籠被拆掉了，但夜市沒什麼變還是一樣好吃</p>
+  </div>
+
+  <div class = "page" id = "Yangmingsun">
+    <h1>我的陽明山遊記</h1>
+    <h2>牛奶湖</h2>
+    <a href = "https://www.google.com/maps/place/%E7%89%9B%E5%A5%B6%E6%B9%96/@25.1668304,121.5621493,17z/data=!3m1!4b1!4m6!3m5!1s0x3442b26dcccee24d:0x33ad76960b856bbf!8m2!3d25.1668168!4d121.5645168!16s%2Fm%2F012hmt49?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "milk.jpg" alt = "牛奶胡" id = "img1">
+    </a>
+    <button id="shrinkBtn8">縮小圖片</button>
+    <p>這是我到陽明山的第一站，真的是白白的很酷</p>
+    <h2>菁山吊橋</h2>
+    <a href = "https://www.google.com/maps/place/%E8%8F%81%E5%B1%B1%E5%90%8A%E6%A9%8B/@25.1664119,121.5630423,17z/data=!3m1!4b1!4m6!3m5!1s0x3442addaaaaaaaab:0x1494b3c75f6bafe4!8m2!3d25.1664119!4d121.5656172!16s%2Fg%2F12m9l2zy0?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "big.jpg" alt = "菁山吊橋" id = "img2">
+    </a>
+    <button id="shrinkBtn9">縮小圖片</button>
+    <p>這是我到陽明山的第二站，滿大的吊橋</p>
+    <h2>冷水坑</h2>
+    <a href = "https://www.google.com/maps/place/%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A3%AB%E6%9E%97%E5%8D%80%E5%86%B7%E6%B0%B4%E5%9D%91/@25.1671827,121.5610546,17z/data=!3m1!4b1!4m6!3m5!1s0x3442b26c6bafcaa9:0x2a8d44e9eb9fcf71!8m2!3d25.1655401!4d121.5639373!16s%2Fg%2F1tlwcbql?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "water.jpg" alt = "冷水坑" id = "img3" >
+    </a>
+    <button id="shrinkBtn10">縮小圖片</button>
+    <p>這是我到陽明山的第三站，就是個冷水坑</p>
+    <h2>擎天崗</h2>
+    <a href = "https://www.google.com/maps/place/%E6%93%8E%E5%A4%A9%E5%B4%97/@25.1671823,121.5533297,15z/data=!4m10!1m2!2m1!1z5pOO5aSp5bSX!3m6!1s0x3442b2648c55e835:0xd919763355207088!8m2!3d25.165756!4d121.5753508!15sCgnmk47lpKnltJdaDSIL5pOOIOWkqSDltJeSARJ0b3VyaXN0X2F0dHJhY3Rpb27gAQA!16s%2Fg%2F155pt3xv?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "ox.jpg" alt = "擎天崗" id = "img4">
+    </a>
+    <button id="shrinkBtn11">縮小圖片</button>
+    <p>這是我到陽明山的第四站，真的很多牛，很多在躺著睡覺 <br> 擎天崗要是夏天我覺得滿熱的，我2月去就有點熱了 <br> 也多人在遛狗跟野餐，都挺適合的</p>
+    <h2>小油坑</h2>
+    <a href = "https://www.google.com/maps/place/%E5%B0%8F%E6%B2%B9%E5%9D%91%E5%B1%B1/@25.1773061,121.5268537,15z/data=!4m10!1m2!2m1!1z5bCP5rK55Z2R!3m6!1s0x3442b21859194565:0xb7308549774f023b!8m2!3d25.1773061!4d121.5459081!15sCgnlsI_msrnlnZGSAQRwZWFr4AEA!16s%2Fg%2F11b6_g2874?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "oil.jpg" alt = "小油坑" id = "img5">
+    </a>
+    <button id="shrinkBtn12">縮小圖片</button>
+    <p>這是我到陽明山的第五站，但我沒有真的走進去，在外面就看的到了</p>
+    <h2>竹子湖</h2>
+    <a href = "https://www.google.com/maps/place/%E7%AB%B9%E5%AD%90%E6%B9%96/@25.1726423,121.5142772,15z/data=!4m10!1m2!2m1!1z56u55a2Q5rmW!3m6!1s0x3442b21d8eb6b7ef:0xa72115cca66b7ff8!8m2!3d25.1726423!4d121.5333316!15sCgnnq7nlrZDmuZZaDCIK56u55a2QIOa5lpIBC3NjZW5pY19zcG904AEA!16s%2Fg%2F155ppzpc?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "no%20water.jpg" alt = "竹子湖" id = "img6">
+    </a>
+    <button id="shrinkBtn13">縮小圖片</button>
+    <p>這是我到陽明山的第六站，雖然叫做竹子湖，但是是看海芋的，很漂亮!</p>
+    <p>還有買到很好吃的芭樂，那邊也有不少餐廳</p>
+    <h2>花鐘</h2>
+    <a href = "https://www.google.com/maps/place/%E9%99%BD%E6%98%8E%E5%B1%B1%E8%8A%B1%E9%90%98/@25.0974121,121.4403007,12z/data=!4m10!1m2!2m1!1z6Iqx6ZCY!3m6!1s0x3442b310336c2b39:0xde1b73b30eb78c9d!8m2!3d25.1590143!4d121.5390067!15sCgboirHpkJhaCSIH6IqxIOmQmJIBEnRvdXJpc3RfYXR0cmFjdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOUGIyVjZUakpSUlJBQuABAA!16s%2Fg%2F11xg91jhw?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+    <img src = "flower.jpg" alt = "花鐘" id = "img7">
+    </a>
+    <button id="shrinkBtn14">縮小圖片</button>
+    <p>這是我到陽明山的第七站，附近開了很多櫻花，也有一些吃的</p>
+    <h2>夕陽</h2>
+    <img src = "sun.jpg" alt = "夕陽" id = "img8">
+    <button id="shrinkBtn15">縮小圖片</button>
+    <p>這是我到陽明山的第八站，這是在花鐘附近拍的，那天天氣很好夕陽很漂亮</p>
+  </div>
+
+
+
+</body>
+<link rel="stylesheet" href="style.css">
+
+</html>
